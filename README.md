@@ -18,6 +18,8 @@ In this project , I tried to create a churn model with the given data. Creating
 
 This project is created as a part of Udacity Data Scientist Nanodegree Program.
 
+You can find this project's Medium article on this link : https://medium.com/@semihdesticioglu/predicting-music-app-churns-with-machine-learning-sparkify-project-dfc2ac2c695c
+
 ### Data:
 In this project, we have small , medium and full datasets. I used medium size dataset (237MB) on IBM Cloud Pak solution. I used Pyspark on analysis and modelling. Spark with Hadoop is used because of big data. Using PySpark, you can work with RDDs in Python programming language and use Spark on Hadoop systems easily.
 
@@ -52,6 +54,7 @@ In the final section, we tried some ready models from pyspark.ml library and cho
 
 
 ![](images/comparison.PNG )
+![](images/feature_importances.PNG )
 
 In this project , we used IBM Watson Studio and its' spark&hadoop features to analyze data more easily. We used pyspark python module to reach and work in spark&hadoop systems.
 
