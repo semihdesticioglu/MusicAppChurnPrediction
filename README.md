@@ -27,25 +27,8 @@ Data includes 1 json file:
 1. medium-sparkify-event-data.json: Event based log data of users. I cant upload it to github since it is 237MB.
 
 
-<a name="FindingsonMLprocesses"></a>
-## 2. Findings & Conclusion
-
-
-In this project, we had a small-medium sized event type dataset for a fictional music app. We wanted to build a churn model who quit using the app. If we can forecast these customers before they leave, we can reach them and promote some campaigns or discounts and dont lose customer. This will make company more profitable. 
-
-Analyzing dataset and features in it show some indicators about churn. In addition to these ready tabular formatted features, we added some features that measures user behavior, consumption and attributes. Adding these extra features have made our model more solid and powerful.
-
-In the final section, we tried some ready models from pyspark.ml library and choiced Logistic Regression algorithm with default settings. We could say our features in dataset effect our customers' churn probability increasingly or decreasingly. These weights of the features are model's parameters, the only difference is these total weights and multiplying with feature values gets into a sigmoid function and turn to a probability value for churning.
-
-![](images/comparison.png )
-
-In this project , we used IBM Watson Studio and its' spark&hadoop features to analyze data more easily. We used pyspark python module to reach and work in spark&hadoop systems.
-
-Many thanks to Udacity and data providers for this project. 
-
-
 <a name="FileDescriptions"></a>
-## 3. File Descriptions
+## 2. File Descriptions
 ~~~~~~~
         MusicAppChurnPrediction
           |-- Sparkify-Feature Engineering & Modelling with IBM Cloud.ipynb    - Feature Enginering and Modelling Notebook                      
@@ -57,6 +40,21 @@ Many thanks to Udacity and data providers for this project. 
 ~~~~~~~
 
 
-<a name="Instructions"></a>
-## 4. Instructions for deploying web app on local:
+<a name="FindingsonMLprocesses"></a>
+
+## 3. Findings & Conclusion
+
+
+In this project, we had a small-medium sized event type dataset for a fictional music app. We wanted to build a churn model who quit using the app. If we can forecast these customers before they leave, we can reach them and promote some campaigns or discounts and dont lose customer. This will make company more profitable. 
+
+Analyzing dataset and features in it show some indicators about churn. In addition to these ready tabular formatted features, we added some features that measures user behavior, consumption and attributes. Adding these extra features have made our model more solid and powerful.
+
+In the final section, we tried some ready models from pyspark.ml library and choiced Logistic Regression algorithm with default settings. We could say our features in dataset effect our customers' churn probability increasingly or decreasingly. These weights of the features are model's parameters, the only difference is these total weights and multiplying with feature values gets into a sigmoid function and turn to a probability value for churning.
+
+![](images/comparison.PNG )
+
+In this project , we used IBM Watson Studio and its' spark&hadoop features to analyze data more easily. We used pyspark python module to reach and work in spark&hadoop systems.
+
+Many thanks to Udacity and data providers for this project. 
+
 
