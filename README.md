@@ -35,7 +35,9 @@ Data includes 1 json file:
           |-- Sparkify-Feature Engineering & Modelling with IBM Cloud.ipynb    - Feature Enginering and Modelling Notebook                      
           |-- Sparkify-EDA_IBM_Cloud.ipynb  - Exploratory Data Analysis Notebook 
           |-- images
-                |-- classifier.pkl    //machine learning model's best estimator prameters in a pickle file
+                |-- comparison.PNG     - Comparison of algorithms
+                |-- customer-churn.jpg - Project head picture   
+                |-- feature_importances.PNG  - Feature importance visual for Logistic Regression
           |-- README
           |-- Licence
 ~~~~~~~
