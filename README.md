@@ -4,9 +4,8 @@
 ### Table of Contents
 
 1. [Project Overview](#ProjectOverview)
-2. [Findings on ML processes](#FindingsonMLprocesses)
-3. [File Descriptions](#FileDescriptions)
-4. [Instructions](#Instructions)
+2. [File Descriptions](#FileDescriptions)
+3. [Findings & Conclusion](#Findings-&-Conclusion)
                           
 
 <a name="ProjectOverview"></a>
@@ -50,6 +49,7 @@ In this project, we had a small-medium sized event type dataset for a fictional 
 Analyzing dataset and features in it show some indicators about churn. In addition to these ready tabular formatted features, we added some features that measures user behavior, consumption and attributes. Adding these extra features have made our model more solid and powerful.
 
 In the final section, we tried some ready models from pyspark.ml library and choiced Logistic Regression algorithm with default settings. We could say our features in dataset effect our customers' churn probability increasingly or decreasingly. These weights of the features are model's parameters, the only difference is these total weights and multiplying with feature values gets into a sigmoid function and turn to a probability value for churning.
+
 
 ![](images/comparison.PNG )
 
